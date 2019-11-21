@@ -1,0 +1,33 @@
+
+public class qwe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog d=new Dog();
+		d.age=5;
+		d.name="请问";
+		d.breed="中华田园犬";
+		d.Dogid();
+		d.bark();
+	}
+}
+class Dog{
+	int age;
+	String name;
+	String breed;
+	
+	void bark() {
+		System.out.println("汪汪汪");
+	}
+	void Dogid() {
+		System.out.println(name+"是"+breed+age+"岁了");
+	}
+}
+class Moive{
+	String name;
+	String genre;
+	String rating;
+	void PlayMoive(){
+		System.out.println("Playing the moive");
+	}
+}
